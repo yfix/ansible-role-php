@@ -1,6 +1,6 @@
 # Ansible Role: PHP
 
-[![Build Status](https://travis-ci.org/geerlingguy/ansible-role-php.svg?branch=master)](https://travis-ci.org/geerlingguy/ansible-role-php)
+[![Build Status](https://travis-ci.org/yfix/ansible-role-php.svg?branch=master)](https://travis-ci.org/yfix/ansible-role-php)
 
 Installs PHP on RedHat/CentOS and Debian/Ubuntu servers.
 
@@ -166,7 +166,7 @@ None.
       vars_files:
         - vars/main.yml
       roles:
-        - { role: geerlingguy.php }
+        - { role: yfix.php }
 
 *Inside `vars/main.yml`*:
 
@@ -184,11 +184,3 @@ None.
       - php-pecl-apc
       - php-xml
       ...
-
-## License
-
-MIT / BSD
-
-## Author Information
-
-This role was created in 2014 by [Jeff Geerling](http://jeffgeerling.com/), author of [Ansible for DevOps](http://ansiblefordevops.com/).

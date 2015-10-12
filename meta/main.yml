@@ -2,10 +2,10 @@
 dependencies: []
 
 galaxy_info:
-  author: geerlingguy
+  author: yfix
   description: PHP for RedHat/CentOS/Debian/Ubuntu.
-  company: "Midwestern Mac, LLC"
-  license: "license (BSD, MIT)"
+  company: "Yfix group"
+  license: "license (MIT)"
   min_ansible_version: 1.8
   platforms:
   - name: EL
